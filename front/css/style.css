@@ -8,6 +8,7 @@
 @import url("/front/css/screen/main.css");
 @import url("/front/css/screen/board.css");
 @import url("front/css/screen/board_enroll.css");
+@import url("/front/css/screen/teacher.css");
 
 @font-face {
     font-family: 'GmarketSansMedium';

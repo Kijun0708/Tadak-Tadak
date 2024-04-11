@@ -1,0 +1,136 @@
+.teacher-content {
+    margin: 0px 50px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+.teacher-row {
+    display: flex;
+    height: 185px;
+    gap: 30px;
+    /* background-color: aqua; */
+}
+
+.teacher-item {
+    /* width: 100%; */
+    position: relative;
+    display: flex;
+    height: 185px;
+    border: 1px solid #D9D9D9;
+    border-right: 7px solid #D9D9D9 ;
+    border-bottom: 7px solid #D9D9D9 ;
+    border-radius: 10px;
+    flex: 1;
+}
+
+.item-image{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 185px;
+    /* border: 1px solid red; */
+    border-right: 1px dashed #d9d9d9;
+}
+
+.teacher-logo{
+    width: 180px;
+
+}
+
+.academy-title{
+    margin-top: 10%;
+    font-size: 18px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.teacher-info{
+    width: 30%;
+    display: flex;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 50px;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.teacher-review-count{
+    text-decoration: underline;
+}
+
+
+.star-rating {
+    font-size: 20px;
+    display: inline-flex;
+    align-items: center;
+  }
+  
+  .star-rating .rating-text {
+    margin-right: 5px;
+  }
+  
+  .star-rating .stars {
+    color: #ccc;
+    white-space: nowrap;
+    position: relative;
+    margin-right: 5px;
+  }
+  
+  .star-rating .star {
+    display: inline-block;
+  }
+  
+  .star-rating .fill {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #ffcc00;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+
+  .star-rating .rating-value {
+    font-size: 16px;
+  }
+
+
+  .teacher-review-simple{
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* margin-top: 25px;
+    margin-bottom: 25px; */
+    border-left: 1px dashed #d9d9d9;
+    
+  }
+
+  .teacher-review-simple > li{
+    list-style-type: disc;
+    list-style-position: inside;
+    margin-left: 30px;
+    font-size: 14px;
+  }
+
+  .teacher-review-simple:nth-child(1){
+    margin-top: 25px;
+    border: 1px solid black;
+  }
+
+  .teacher-review-simple:nth-last-child(1){
+    margin-bottom: 25px;
+  }
+
+  .more{
+    font-size: 12px;
+    color: #888;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+  }
